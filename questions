@@ -1,0 +1,57 @@
+
+- ¿Qué comando utilizaste en el paso 11? ¿Por qué?
+
+El comando utilizado es `git reset --hard`
+
+
+- ¿Qué comando o comandos utilizaste en el paso 12? ¿Por qué?
+
+Para ver el historial se puede usar `git log` y luego para revertir el commit con un `git revert <ID_commit>`
+
+- El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?
+
+Creo recordar que no pero hice esos ejercicios y luego estos otro día y no me acuerdo :/ 
+
+- El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?
+
+Aquí si que había conflictos porque hay sobreposición en el readme si no me equivoco
+
+- El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?
+
+No estoy seguro creo que igual que antes
+
+- ¿Qué comando o comandos utilizaste en el paso 25?
+
+Este paso no lo hice porque no entiendo muy bien que hay que hacer y es fin de semana y tampoco quiero molestar
+
+
+- El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
+
+No porque estamos en la rama main con los ultimos cambios
+
+- ¿Qué comando o comandos utilizaste en el paso 27?
+
+con `git reset` porque ha sido solo en local si ha sido pusheado a remoto se haría con `git revert`
+
+- ¿Qué comando o comandos utilizaste en el paso 28?
+
+`git restore`
+
+- ¿Qué comando o comandos utilizaste en el paso 29?
+
+`git branch -d styled`
+
+- ¿Qué comando o comandos utilizaste en el paso 30?
+
+`git checkout` main && git merge -m "mensaje" styled
+
+- ¿Qué comando o comandos usaste en el paso 32?
+
+git checkout <commit_id>
+
+- ¿Qué comando o comandos usaste en el punto 33?
+
+`git resert --hard`
+
+
+Link to the PR --> https://github.com/kasappeal/nerdquotes/pull/832
